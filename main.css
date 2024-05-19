@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.babbar:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.corefeaturesection {
+  background-size: 100% 100%;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
+.ctaSection {
+  background-size: 100% 100%;
+}
+
+.companiesList {
+  animation: 10s infinite linear moveCompany;
+}
+
+@keyframes moveCompany {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -50%;
+  }
+}
+
+.btn{
+  background-color: #191ae9;
+  font-size: 12px;
+}
+
+.btn:hover{
+  color: black;
+}
